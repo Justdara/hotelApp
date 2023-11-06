@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-color: #2d3436;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}
+
+main {
+  display: flex;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+button[type="submit"] {
+  background-color: #2d3436;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #636e72;
+}
+
+#results {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#results li img {
+  max-width: 250px;
+  border: 3px solid sandybrown;
+  border-radius: 20px;
+}
+#results li {
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #636e72;
+  list-style: none;
+}
+
+#results li h1 {
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 10px 0;
+  margin-top: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
